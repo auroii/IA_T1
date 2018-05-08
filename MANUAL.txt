@@ -1,0 +1,23 @@
+Para executar o programa maze generator e rodar o simulador é necessário ter as biblitecas do PLayer e do Stage instaladas no sistemas:
+
+Segue o modelo de compilação:
+		
+     gcc -o exe maze_solver.c -I/usr/local/include/player-3.0 -L/usr/local/lib64 -lplayerc 
+
+
+Segue o modelo de execução:
+	./exe <nos.out
+
+Os demais cógidos podem ser compilados de jeito padrão
+
+A execução é feita da seguinte maneira:
+	
+	./programa grafo.txt >nos.out
+
+
+
+Para gerar o arquivo grafo.txt basta digitaro comando na pasta de arquivos(com a imagem maze.bmp na mesma pasta):
+
+	python3 conversor.py 
+
+Deve-se estar atento as bibliotecas utilizadas no python.
